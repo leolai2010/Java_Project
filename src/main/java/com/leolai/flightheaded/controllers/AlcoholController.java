@@ -59,9 +59,9 @@ public class AlcoholController {
 
 	}
 	@PostMapping("/calbac")
-	public String calbac(@RequestParam("weight") Integer weight, @RequestParam("human") Double human, 
+	public String calbac(@RequestParam("userid") Long id,@RequestParam("weight") Integer weight, @RequestParam("human") Double human, 
 			@RequestParam("metarate") Double metarate, @RequestParam("hours") Integer hours, Model model, HttpSession session) {
-		double userbacinfo = alcoholService.userinfocal(weight, human, metarate, hours);
+		double userbacinfo = alcoholService.userinfocal(id, weight, human, metarate, hours);
 		System.out.println(userbacinfo);
 		session.setAttribute("userbacinfo", userbacinfo);
 		return "redirect:/calculator";

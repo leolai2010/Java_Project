@@ -17,17 +17,25 @@
 	</head>
 	<body>
 		<nav class="start animated fadeInDown teal lighten-2">
-	    <div class="nav-wrapper">
-	      <a href="/dashboard" class="brand-logo">&nbsp&nbspFlight Headed</a>
-	      <ul id="nav-mobile" class="right hide-on-med-and-down">
-	        <li class="active"><a href="#">Home</a></li>
-	        <li><a href="/calculator">Calculator</a></li>
-	        <li><a href="/application">Application</a></li>
-	        <li><a href="/about">About</a></li>
-	        <li><a href="/logout">Logout</a></li>
-	      </ul>
-	    </div>
+		    <div class="nav-wrapper">
+		      <a href="/dashboard" class="brand-logo">&nbsp&nbspFlight Headed</a>
+		      <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      			<ul class="right hide-on-med-and-down">
+			        <li class="active"><a href="#">Home</a></li>
+			        <li><a href="/calculator">Calculator</a></li>
+			        <li><a href="/application">Application</a></li>
+			        <li><a href="/about">About</a></li>
+			        <li><a href="/logout">Logout</a></li>
+		     	</ul>
+		    </div>
   		</nav>
+  		<ul class="sidenav" id="mobile-menu">
+  			<li><a href="/dashboard">Home</a></li>
+			<li><a href="/calculator">Calculator</a></li>
+			<li><a href="/application">Application</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/logout">Logout</a></li>
+  		</ul>
   	<div class="container">
   		<div class="textcenter start animated zoomIn">
   		<h1 class="blue-text text-darken-3">Welcome, <c:out value="${user.username}"/>!</h1>
@@ -60,8 +68,8 @@
 		          <img src="images/ForensicTech.png">
 		        </div>
 		        <div class="card-content">
-		          <p>I am a very simple card. I am good at containing small bits of information.
-		          I am convenient because I require little markup to use effectively.</p>
+		          <p>GC/MS and GC-FID are common instrument to test for blood alcohol presence. 
+		          By detecting ions formed during combustion of organic compounds in a hydrogen flame</p>
 		        </div>
 		      </div>
 		    </div>
@@ -75,8 +83,10 @@
 		          <img src="images/Intoximeter.png">
 		        </div>
 		        <div class="card-content">
-		          <p>I am a very simple card. I am good at containing small bits of information.
-		          I am convenient because I require little markup to use effectively.</p>
+		          <p>For efficiency in the field alcohol breath test is adminstered with portable Intoximeter
+		          to determine alcohol concentration in the body. Fuel cell technology is used in this instrumentation
+		          by applying principle in which Alcohol is used as the fuel of a chemical reaction 
+		          that produces a voltage the instrument can measure</p>
 		        </div>
 		      </div>
 		    </div>
@@ -91,8 +101,7 @@
 		          <span class="card-title grey-text text-darken-5">Alcohol Absorption</span>
 		        </div>
 		        <div class="card-content">
-		          <p>I am a very simple card. I am good at containing small bits of information.
-		          I am convenient because I require little markup to use effectively.</p>
+		          <p>This is a graphical representation of alcohol absorption through Ingestion/Drinking</p>
 		        </div>
 		      </div>
 		    </div>
@@ -106,8 +115,7 @@
 		          <img src="images/Distribution.png">
 		        </div>
 		        <div class="card-content">
-		          <p>I am a very simple card. I am good at containing small bits of information.
-		          I am convenient because I require little markup to use effectively.</p>
+		          <p>Alcohol Distrubtion percentage in various tissues is mapped out in above graph</p>
 		        </div>
 		      </div>
 		    </div>
@@ -121,8 +129,8 @@
 		          <img src="images/Elimination.png">
 		        </div>
 		        <div class="card-content">
-		          <p>I am a very simple card. I am good at containing small bits of information.
-		          I am convenient because I require little markup to use effectively.</p>
+		          <p>Metabolic rate or Elimination rate ultimately determines the duration of alcohol in system
+		          base on physiological differences of each person</p>
 		        </div>
 		      </div>
 		    </div>

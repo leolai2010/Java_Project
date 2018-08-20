@@ -46,22 +46,22 @@ h1, h4{
 .info2{
     position: absolute;
     left: 47%;
-    bottom: -169%;
+    bottom: -177%;
 }
 .info3{
     position: absolute;
-    left: 17%;
-    bottom: -250%;
+    left: 26%;
+    bottom: -252%;
 }
 .info4{
     position: absolute;
-    left: 47%;
-    bottom: -310%;
+    left: 48%;
+    bottom: -302%;
 }
 .info5{
     position: absolute;
-    left: 17%;
-    bottom: -366%;
+    left: 24%;
+    bottom: -357%;
 }
 #myBtn {
   display: none;

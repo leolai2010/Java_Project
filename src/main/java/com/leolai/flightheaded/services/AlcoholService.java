@@ -43,8 +43,9 @@ public class AlcoholService {
     public void deleteAlcohol(Long id) {
     	alcoholRepository.deleteById(id);
     }
-	public Double userinfocal(Integer weight, Double human, Double metarate, Integer hours) {
-		Double alcoholtotal = alcoholRepository.sumalcohol();
+	public Double userinfocal(Long id, Integer weight, Double human, Double metarate, Integer hours) {
+		Double alcoholtotal = alcoholRepository.sumalcohol(id);
+		System.out.print(alcoholtotal);
 		Double alcoholresult = (alcoholtotal*0.01882816/(weight/2.2)*human)-(metarate*hours);
 		return alcoholresult;
 	}

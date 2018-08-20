@@ -7,6 +7,6 @@ import com.leolai.flightheaded.models.Alcohol;
 
 public interface AlcoholRepository extends CrudRepository<Alcohol, Long> {
 	List<Alcohol> findAll();
-	@Query("SELECT SUM(c.percentAlcohol) * SUM(c.servings) FROM Alcohol c")
-	Double sumalcohol();
+	@Query("SELECT SUM(c.percentAlcohol) * SUM(c.servings) FROM Alcohol c JOIN c.user a WHERE a.id =?1")
+	Double sumalcohol(Long id);
 }

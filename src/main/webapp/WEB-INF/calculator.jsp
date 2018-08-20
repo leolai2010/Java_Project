@@ -16,18 +16,26 @@
       	<link type="text/css" rel="stylesheet" href="css/calculator.css"/>
 	</head>
 	<body>
-		<nav class="teal lighten-2">
-	    <div class="nav-wrapper">
-	      <a href="/dashboard" class="brand-logo">&nbsp&nbspFlight Headed</a>
-	      <ul id="nav-mobile" class="right hide-on-med-and-down">
-	        <li><a href="/dashboard">Home</a></li>
-	        <li class="active"><a href="/calculator">Calculator</a></li>
-	        <li><a href="/application">Application</a></li>
-	        <li><a href="/about">About</a></li>
-	        <li><a href="/logout">Logout</a></li>
-	      </ul>
-	    </div>
+		<nav class="start teal animated fadeInDown lighten-2">
+		    <div class="nav-wrapper">
+		      <a href="/dashboard" class="brand-logo">&nbsp&nbspFlight Headed</a>
+		      <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      			<ul class="right hide-on-med-and-down">
+			        <li><a href="/dashboard">Home</a></li>
+			        <li class="active"><a href="/calculator">Calculator</a></li>
+			        <li><a href="/application">Application</a></li>
+			        <li><a href="/about">About</a></li>
+			        <li><a href="/logout">Logout</a></li>
+		     	</ul>
+		    </div>
   		</nav>
+  		<ul class="sidenav" id="mobile-menu">
+  			<li><a href="/dashboard">Home</a></li>
+			<li><a href="/calculator">Calculator</a></li>
+			<li><a href="/application">Application</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/logout">Logout</a></li>
+  		</ul>
   		<div class="container animated fadeInUp">
   		<div class="drinktable">
   		<table>
@@ -130,6 +138,7 @@
 		        <label>Hours since the last drink: </label>
 		        <input value="5" name="hours" type="number" min="0">
 		    <p>
+		    <input type="hidden" name="userid" value="${user.id}"/>
 		 	<button class="btn waves-effect waves-light" type="submit">
 			<i class="material-icons right">local_hospital</i>Update</button>
 		</form>

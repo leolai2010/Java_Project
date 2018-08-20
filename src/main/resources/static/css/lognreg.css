@@ -29,8 +29,7 @@ body{
 	background-color: #3498db;
 	background-image:url('../images/beerLogIn.png');
 	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right 686px top 355px;
+    background-position: right 55% bottom 280%;
 }
 .bubbles {
 	display: inline-block;

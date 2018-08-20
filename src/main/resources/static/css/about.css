@@ -1,1 +1,148 @@
 @charset "ISO-8859-1";
+body, html {
+    height: 100%;
+}
+.parallax{
+    /* The image used */
+    background-image: url('../images/about.png');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2{
+    /* The image used */
+    background-image: url('../images/about.png');
+    /* Full height */
+    height: 75%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vargas {
+	background-image: url('../images/hertzberg.jpg');
+    min-height: 400px;
+	display: block;
+	position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vargasinfo{
+	display: inline-block;
+    position: absolute;
+    left: 44%;
+    top: 18%;
+    width: 400px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    color: white;
+    padding: 22px;
+}
+#prof{
+    display: inline-block;
+    position: absolute;
+    left: 34%;
+    top: 27%;
+}
+.lapd{
+	background-image: url('../images/lacity.jpg');
+    min-height: 400px;
+	display: block;
+	position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#lapdpic{
+display: inline-block;
+    position: absolute;
+	left: 57%;
+    top: 17%;
+}
+#lapdinfo{
+    display: inline-block;
+    position: absolute;
+    left: 29%;
+    top: 18%;
+    width: 513px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    color: white;
+    padding: 16px;
+}
+#me{
+	position: absolute;
+	left: -11%;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+}
+.medesc{
+    display: inline-block;
+    position: absolute;
+    left: 47%;
+    top: 21%;
+    width: 400px;
+    height: 455px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    color: white;
+    padding: 22px;
+}
+.caption{
+	position: absolute;
+    left: 0;
+    top: 85%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 16px;
+    font-size: 16px;
+    letter-spacing: 5px;
+    border-radius: 5px;
+  	animation-delay: 1.5s;
+}
+#linkedin{
+	display: inline-block;
+    width: 250px;
+    height: 275px;
+    background: rgba(0, 0, 255, 0.5);
+    border-radius: 30px;
+    color: white;
+    padding: 22px;
+    margin: 0% 0% 0% 22%;
+}
+#github{
+	display: inline-block;
+    width: 250px;
+    height: 275px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    color: white;
+    padding: 22px;
+    margin: 0% 0% 0% 7%;
+}
+#resume{
+	display: inline-block;
+    width: 250px;
+    height: 275px;
+    background: rgba(255, 0, 0, 0.5);
+    border-radius: 30px;
+    color: white;
+    padding: 22px;
+    margin: 5%;
+}

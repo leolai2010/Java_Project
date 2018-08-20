@@ -1,5 +1,25 @@
-h1{
+.coming{
 	color:Black;
 	background-color:#F5F5DC;
 	text-align:center;
+}
+.phone{
+    position: relative;
+    left: 14%;
+}
+.eye{
+    position: relative;
+    left: 19%;
+}
+#appinfo{
+	display: inline-block;
+    position: absolute;
+	left: 64%;
+    top: 0%;
+    width: 400px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    color: white;
+    padding: 22px;
 }
