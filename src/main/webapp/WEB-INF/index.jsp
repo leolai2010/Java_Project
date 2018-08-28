@@ -38,7 +38,14 @@
     	<i class="material-icons right">fingerprint</i></button>
     </form>
     	<p></p>
-    	<button id="regbtn" class="btn waves-effect waves-light">Register<i class="material-icons right">create</i></button>  
+    	<button id="regbtn" class="btn waves-effect waves-light">Register<i class="material-icons right">create</i></button>
+    <p></p>
+    <form action='/login' method="POST">
+    	<input type="hidden" name="emaillogin" value="guest@guest.com">
+        <input type="hidden" name="passwordlogin" value="guestpass123">
+        <button type="submit" class="btn waves-effect waves-light">Login As Guest
+        <i class="material-icons right">assignment_ind</i></button>
+    </form>  
     </div>
     <div id="registerbox" class="container hidden">
 	<h4>Register</h4>

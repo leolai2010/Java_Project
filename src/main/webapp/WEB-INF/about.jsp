@@ -44,7 +44,7 @@
   			<p>Hello! My Name is,</p>
   			<h3>Leo Lai</h3>
   			<p>I am a Full-stack Developer and Toxicology Researcher.
-  			During my graduate studies, I had the opportunity to participate in alcohol drinking studies.
+  			During my college years, I had the opportunity to participate in alcohol drinking studies.
   			Thus I created this application in hopes to provide information on the science behind 
   			alcohol analysis and engaging people to be knowledgeable about what they drink and how it affects them<p>
   			<blockquote>You can contact me directly at: leolai2010@gmail.com</blockquote>
