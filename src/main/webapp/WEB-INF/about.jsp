@@ -98,7 +98,7 @@
 			<p>GitHub</p>
 		</div>
 		<div id="resume">
-			<a href="images/resume.pdf" download>
+			<a href="https://drive.google.com/file/d/1_7LcaZ8Rhtz4FVAUNI-UO2prlsvQur7j/view?usp=sharing">
 			<img height="200" width="200" src="images/resume.png">
 			</a>
 			<p>Resume Download</p>
